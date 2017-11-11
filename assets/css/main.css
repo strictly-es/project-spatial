@@ -2337,7 +2337,7 @@
 
 			.image.rounded img {
 				border: solid 0.5em rgba(144, 144, 144, 0.25);
-				border-radius: 100%;
+				/*border-radius: 100%;*/
 			}
 
 		.image.captioned {
@@ -2735,7 +2735,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../../images/IMG_2219.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3090,7 +3090,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/IMG_2248.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
