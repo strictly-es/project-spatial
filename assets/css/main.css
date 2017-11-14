@@ -3161,8 +3161,15 @@
 			#banner {
 				padding: 4em 2em 4em 2em;
 			}
-
 		}
+
+				@media screen and (max-width: 320px) {
+
+			#banner {
+				padding: 2em 2em 2em 2em;
+			}
+
+		}s
 
 /* Main */
 
@@ -3264,5 +3271,20 @@
 					margin: 0;
 					padding: 0;
 				}
-
 		}
+
+
+	.google-map {
+	    position: relative;
+	    width: 100%;    /* 左右に余白が必要なら値を変更してもOK */
+	    height: 0;
+	    padding-bottom: 56.25%;    /* padding-topでもOK */
+	    overflow: hidden;
+	}
+	.google-map iframe {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;    /* 必要であれば!importantを付けてください */
+	    height: 100%;    /* 必要であれば!importantを付けてください */
+	}
