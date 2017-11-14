@@ -3097,26 +3097,6 @@
 		text-align: center;
 	}
 
-	@media only screen and (max-width:320px) {
-	  body.is-touch #banner{
-	    background:none;  /* 一旦、PC用の背景画像を消す。 */
-	  }
-	  #banner {
-	    padding: 16em 0 13em 0;
-		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/IMG_2248.jpg");
-	    background-size: cover;
-	    display: block;
-	    position: fixed;  /* ★スマホ用にコレで代替。 */
-	    top: 0;
-	    left: 0;
-	    width: 100vw;  /* ★サイズ指定。 */
-	    height: 100vh;  /* ★サイズ指定。 */
-	    content: "\A";  /* ★大事 */
-	    z-index: -1;  /* ★大事 */
-	  }
-	}
-
 		#banner:last-child {
 			margin-bottom: 0;
 		}
@@ -3301,6 +3281,7 @@
 	    height: 0;
 	    padding-bottom: 56.25%;    /* padding-topでもOK */
 	    overflow: hidden;
+	    padding: 40%;
 	}
 	.google-map iframe {
 	    position: absolute;
